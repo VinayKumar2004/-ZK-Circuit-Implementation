@@ -79,6 +79,8 @@ Calls verifyProof() on the verifier contract with calldata
     accounts: [process.env.MUMBAIPRIVATEKEY]}},
     and create env file 
  Now  add mumbai test network to metamask account private key![image](https://github.com/VinayKumar2004/-ZK-Circuit-Implementation/assets/94241385/dafbd449-f612-49a5-885f-a2dba6a5281b)
+
+ 
  to depoly run this command 
  npx hardhat run scripts/deploy.ts --network mumbai
  
