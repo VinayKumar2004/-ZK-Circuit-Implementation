@@ -2,9 +2,8 @@
 A hardhat-circom  to generate for this circuit![image](https://github.com/VinayKumar2004/-ZK-Circuit-Implementation/assets/94241385/7ad735a9-e0f2-4ada-a8d7-78eff84f5722)
 ## Quick Start
 Compile the Multiplier2() circuit and verify it against a smart contract verifier
-
+```
 pragma circom 2.0.0;
-
 template Multiplier2() {
     //input 
     signal input a;
@@ -55,7 +54,7 @@ template NOT() {
 }
 
 component main = Multiplier2();
-
+```
 # Install
 npm i
 
