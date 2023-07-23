@@ -62,7 +62,8 @@ npm i
 npx hardhat circom   This will generate the out file with circuit intermediaries and geneate the MultiplierVerifier.sol contract
 
 ## Prove and Deploy
-npx hardhat run scripts/deploy.ts This script does 4 things
+```npx hardhat run scripts/deploy.ts ```
+This script does 4 things
 
 Deploys the MultiplierVerifier.sol contract
 Generates a proof from circuit intermediaries with generateProof()
