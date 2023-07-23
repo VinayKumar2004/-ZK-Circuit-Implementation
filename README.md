@@ -59,7 +59,8 @@ component main = Multiplier2();
 npm i
 
 ## Compile
-npx hardhat circom   This will generate the out file with circuit intermediaries and geneate the MultiplierVerifier.sol contract
+```npx hardhat circom  ```
+This will generate the out file with circuit intermediaries and geneate the MultiplierVerifier.sol contract
 
 ## Prove and Deploy
 ```npx hardhat run scripts/deploy.ts ```
